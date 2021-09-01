@@ -7,3 +7,4 @@ Explore the interpreter:
 - Use the `help()` function to explore what you can do with the interpreter.
   - For example execute `help('print')`.
   - Press `q` to exit.
+help('print')

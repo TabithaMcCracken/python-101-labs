@@ -1,4 +1,7 @@
 # Improve the variable assignment shown below.
 # Why should you change it?
 
-color, year = "red", 1900
+first_color = "red"
+year = 1900
+
+#The data are unrelated

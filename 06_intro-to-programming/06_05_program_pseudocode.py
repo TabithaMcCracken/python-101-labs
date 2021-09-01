@@ -6,3 +6,9 @@
 # You can also add real Python code after learning the necessary concepts.
 # For now, just practice breaking larger tasks into smaller steps
 # and writing out your thoughts in pseudocode.
+
+# My Pseudocode
+# Deleting useless and duplicate image files for our business
+# Read a file to determine when it was last used
+# If it's too old, delete the file
+# If there are duplicate files, keep the recently used one and delete the one used the longest ago

@@ -10,3 +10,15 @@
 
 wrong = False
 right = True
+
+# I have no idea what I am supposed to do here! 
+
+# Wrong + Wrong = Right
+# False + False = True
+if (((wrong and right) and (not right)) == (wrong or right)):
+    print ("Yes")
+else: print ("No")
+
+print ((wrong and right)) #False
+print ((not right)) #False
+print ((wrong or right)) #True
