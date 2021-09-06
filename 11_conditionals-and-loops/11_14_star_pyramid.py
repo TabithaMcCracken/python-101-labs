@@ -22,3 +22,12 @@
 # * * *
 #
 # HINT: Think of nested for loops!
+stars = int(input("How many stars would you like to print?"))
+row = 0
+column = 0
+
+for row in range(0,stars):
+    for column in range(0, row+1):
+        print("* ", end = "")
+
+    print("\r")

@@ -30,55 +30,83 @@
 # You are always facing North and you can take sideways steps
 # without changing the direction that you're looking.
 
+# Directions- Left, straight 4x's, right, straight 2x's, right, straight, exit
+
 flag = True
 
+# True
 if flag == True:
-    print("left")
+    print("left") # Goes left
+# True
+
+flag = False
+# False
+if flag == False:
+    print("straight ahead") # Goes Straight
+# False
+if flag == True:
+    print("left")# Doesn't execute
+# False
+if flag == False:
+    print("straight ahead")# Goes Straight
+# False
+flag = True
+# True
+if flag == True:
+    print("straight ahead") # Goes straight
+#True
+
+if flag == True:
+    print("straight ahead") # Goes Straight
+# True
+flag = False
+# False
+if flag == True:
+    print("DEAD END") # Doesn't Execute
+#False
+
+if flag == True:
+    print("left") # Doesn't Execute
+#False
 
 if flag == False:
-    print("straight ahead")
+    print("right") # Goes Right
+#False
+
+flag = True
+# True
+if flag == True:
+    print("straight ahead") # Goes Straight
+# True
+
+flag = False
+# Flase
+if flag == False:
+    print("straight ahead") # Goes Straight
+# False
+
+flag = True
+if flag == False:
+    print("DEAD END") # Doesn't Execute
+# True
 
 if flag == True:
-    print("left")
+    print("right") #Goes Right
+# True
+
+if flag == True:
+    print("straight ahead") # Goes Straight
+# True
+
+flag = False
+# False
+if flag == True:
+    print("left") # Doesn't Execute
+# False
 
 if flag == False:
-    print("straight ahead")
+    print("EXIT!!") # Prints Exit
+# False
 
 if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("DEAD END")
-
-if flag == True:
-    print("left")
-
-if flag == False:
-    print("right")
-
-if flag == True:
-    print("straight ahead")
-
-if flag == False:
-    print("straight ahead")
-
-if flag == False:
-    print("DEAD END")
-
-if flag == True:
-    print("right")
-
-if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("left")
-
-if flag == False:
-    print("EXIT!!")
-
-if flag == True:
-    print("DEAD END")
+    print("DEAD END") # Doesn't Execute
