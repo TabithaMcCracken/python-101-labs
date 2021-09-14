@@ -3,6 +3,7 @@
 # Use an operator and f-string formatting to create this output
 
 #In progress
-word = "co-co-co-coding"
+prefix = "co-"
+word = "coding"
 
-print(f"Time for {word}.")
+print(f"Time for {prefix * 3}{word}.")
