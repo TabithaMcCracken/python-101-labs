@@ -75,6 +75,7 @@ She turned to me and said, "There must be some kind of way out of here."
 Then he replied that's life and you must deal with it!
 Which led to the conclusion that life is just hard"""
 
+# Split the 
 words = sentence.split()
 
 new_words = []
