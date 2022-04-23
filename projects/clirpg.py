@@ -10,9 +10,19 @@
 # If they have the sword from the other room, then they will be able to defeat it and win the game.
 # If they don't have the sword, then they will be eaten by the dragon and lose the game.
 
+import requests
 player_name = str(input("Please enter your name: \n"))
+
+name_len = len(player_name)
+
+URL = f"https://uzby.com/api.php?min={name_len}&max={name_len}"
+
+response = requests.get(URL)
+new_name = response.text
+
+print(f"In this game, your new name is: {new_name}")
 print(
-    f"Welcome, {player_name}! Enjoy the game, we hope you make it out alive! \n")
+    f"Welcome, {new_name}! Enjoy the game, we hope you make it out alive! \n")
 
 
 end_game = False
